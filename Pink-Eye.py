@@ -23,7 +23,7 @@ Entry(win, textvariable = hrs, width =2, font = 'Helvetica 14').place(x=1640, y=
 hrs.set('00')
 
 def pink():
-    messagebox.showinfo("", "Remeber to look away from your screen every 20 min to protect your eyes.")
+    messagebox.showinfo("", "Remember to look away from your screen every 20 min to protect your eyes.")
     # hide the button
     for i in range(1,100):
 
