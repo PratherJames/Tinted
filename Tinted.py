@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 import win32gui
 import win32con
 win = tk.Tk()
-win.title("Pink-Out")
+win.title("Tinted")
 win.geometry("1900x1000")
 win.attributes('-alpha',1)
 win.configure(bg='black')
@@ -70,7 +70,7 @@ bg = Canvas(win, width=width, height=height, bg='white')
 
 setClickthrough(bg.winfo_id())
 
-frame = ImageTk.PhotoImage(file="Example.png")
+frame = ImageTk.PhotoImage(file="Pink.png")
 bg.create_image(1920/2, 1080/2, image=frame)
 bg.pack()
 
