@@ -70,7 +70,7 @@ bg = Canvas(win, width=width, height=height, bg='white')
 
 setClickthrough(bg.winfo_id())
 
-frame = ImageTk.PhotoImage(file="Pink.png")
+frame = ImageTk.PhotoImage(file="Example.png")
 bg.create_image(1920/2, 1080/2, image=frame)
 bg.pack()
 
